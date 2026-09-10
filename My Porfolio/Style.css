@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+
+/* Menu bên trái */
+
+.menu {
+    width: 220px;
+    height: 100vh;
+    background-color: lightblue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: left;
+}
+
+
+/* Tên Portfolio */
+
+.menu h2 {
+    color: rgb(209, 29, 29);
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+/* Các nút menu */
+
+.menu a {
+    display: block;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Khi đưa chuột vào */
+
+.menu a:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+
+/* Mục đang được chọn */
+
+.menu a.active {
+    background-color: darkorange;
+    color: white;
+}
+
+
+/* Nội dung */
+
+.content {
+    margin-left: 220px;
+    padding: 70px;
+}
+
+
+/* Tiêu đề */
+
+.content h1 {
+    color: darkorange;
+}
+
+
+/* Nội dung */
+
+.content p {
+    font-size: 15px;
+}
+
+
+/* Trang chủ */
+
+.home {
+    margin-left: 220px;
+    min-height: 100vh;
+    background-color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/* Welcome */
+
+.home h1 {
+    color: darkorange;
+    font-size: 30px;
+}
+
+
+.home p {
+    font-size: 18px;
+}
