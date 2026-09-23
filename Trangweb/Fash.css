@@ -2,12 +2,49 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-.header-icons {
+.search {
     position: absolute;
     top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header {
+    position: relative;
+    background-color: white;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    color: black;
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+}
+.search input {
+    width: 400px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.search button {
+    height: 25px;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.header-icons {
+    position: absolute;
+    top: 30px;
     right: 20px;
     font-size: 24px;
-    color: #e60a0a;
+    color: #d01818;
 
 }
 .h1 {
@@ -19,6 +56,9 @@ body {
     background-color: brown;
     color: white;
     padding-left: 10px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
 }
 
 .menu p,
@@ -54,7 +94,7 @@ body {
 .product img {
     width: 100%;
     height: 250px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .product p {
@@ -70,9 +110,6 @@ body {
 .product b {
     font-size: 16px;
 }
-
-
-
 .brands {
     display: flex;
     justify-content: space-around;
@@ -81,3 +118,14 @@ body {
     padding: 25px;
     font-size: 20px;
 }
+.information{
+    display:flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.content p {
+    font-size: 11px;
+    line-height: 1.5;
+    margin: 0;
+}
+
